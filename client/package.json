@@ -11,9 +11,16 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
+    "browser-image-compression": "^2.0.2",
+    "html2canvas": "^1.4.1",
+    "jszip": "^3.10.1",
+    "lucide-react": "^1.33.0",
+    "reac": "^0.0.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "tailwindcss": "^4.3.3"
+    "react-router-dom": "^7.18.2",
+    "tailwindcss": "^4.3.3",
+    "yet-another-react-lightbox": "^3.32.2"
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",

@@ -309,7 +309,7 @@ app.use(
 ========================================================= */
 
 const allowedOrigins = [
-  'https://habesha-film-production.onrender.com',
+  'https://biruk-pictures.onrender.com',
 ];
 
 app.use(

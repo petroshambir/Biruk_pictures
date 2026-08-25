@@ -337,17 +337,17 @@ export default function Contact() {
                   <div className="mt-2 space-y-1">
 
                     <a
-                      href="tel:+251976130175"
+                      href="tel:+251931310645"
                       className="block font-serif text-xl font-light text-[#2b261f] transition hover:text-[#a47b3d]"
                     >
-                      +251 976 130 175
+                      +251931310645
                     </a>
 
                     <a
-                      href="tel:+251942746150"
+                      href="tel:+251903624834"
                       className="block text-sm text-[#81776a] transition hover:text-[#a47b3d]"
                     >
-                      +251 942 746 150
+                      +251 903624834
                     </a>
 
                   </div>
@@ -391,10 +391,10 @@ export default function Contact() {
                   </span>
 
                   <a
-                    href="mailto:petroshambirr@gmail.com"
+                    href="Bekibereket137@gmail.com"
                     className="mt-2 block break-all font-serif text-lg font-light text-[#2b261f] transition hover:text-[#a47b3d]"
                   >
-                    petroshambirr@gmail.com
+                   Bekibereket137@gmail.com
                   </a>
 
                   <p className="mt-2 text-xs text-[#9a9084]">

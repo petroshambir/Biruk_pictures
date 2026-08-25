@@ -103,7 +103,7 @@ function Footer() {
 
               {/* Email */}
               <a
-                href="mailto:petroshambirr@gmail.com"
+                href="mailto:Bekibereket137@gmail.com"
                 className="group flex items-center gap-4"
               >
                 <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-sm text-[#d8ae55] transition-all duration-300 group-hover:border-[#d8ae55]/40 group-hover:bg-[#d8ae55]/10">
@@ -116,7 +116,7 @@ function Footer() {
                   </p>
 
                   <p className="mt-1 text-sm text-zinc-400 transition-colors duration-300 group-hover:text-[#d8ae55]">
-                    petroshambirr@gmail.com
+                    Bekibereket137@gmail.com
                   </p>
                 </div>
               </a>
@@ -124,7 +124,7 @@ function Footer() {
 
               {/* Phone 1 */}
               <a
-                href="tel:+251976130175"
+                href="tel:+251931310645"
                 className="group flex items-center gap-4"
               >
                 <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-sm text-[#d8ae55] transition-all duration-300 group-hover:border-[#d8ae55]/40 group-hover:bg-[#d8ae55]/10">
@@ -137,7 +137,7 @@ function Footer() {
                   </p>
 
                   <p className="mt-1 text-sm text-zinc-400 transition-colors duration-300 group-hover:text-[#d8ae55]">
-                    +251 976 130 175
+                    +251 931310645
                   </p>
                 </div>
               </a>
@@ -145,7 +145,7 @@ function Footer() {
 
               {/* Phone 2 */}
               <a
-                href="tel:+251942746150"
+                href="tel:+251903624834"
                 className="group flex items-center gap-4"
               >
                 <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-sm text-[#d8ae55] transition-all duration-300 group-hover:border-[#d8ae55]/40 group-hover:bg-[#d8ae55]/10">
@@ -158,7 +158,7 @@ function Footer() {
                   </p>
 
                   <p className="mt-1 text-sm text-zinc-400 transition-colors duration-300 group-hover:text-[#d8ae55]">
-                    +251 942 746 150
+                    +251 903624834
                   </p>
                 </div>
               </a>
@@ -217,7 +217,7 @@ function Footer() {
 
               {/* TikTok */}
               <a
-                href="https://www.tiktok.com/@habshapicture"
+                href="https://vt.tiktok.com/ZSVXYwMtr/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok"
@@ -235,7 +235,7 @@ function Footer() {
 
               {/* Instagram */}
               <a
-                href="https://www.instagram.com/habesha_pictuer"
+                href="https://www.instagram.com/brukpictures137?igsi=MTV1cTlvNTZ2b3B1dw=="
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -253,7 +253,7 @@ function Footer() {
 
               {/* YouTube */}
               <a
-                href="https://www.youtube.com/"
+                href="https://youtube.com/@hmentertiment?si=ByQRLUBsjOYGxSPk"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="YouTube"
@@ -271,7 +271,7 @@ function Footer() {
 
               {/* Facebook */}
               <a
-                href="https://www.facebook.com/share/1BbUufnsKQ/"
+                href="https://www.facebook.com/bereket.haddish.5?mibextid=ZbWKwL"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"

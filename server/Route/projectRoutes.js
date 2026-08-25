@@ -1,6 +1,6 @@
 import express from 'express';
 import Project from '../models/project.js'; // ኣብ ኣይነት ናይ ፕሮጀክት ሞዴል ኣሎ።
-
+//
 import { upload } from '../cloudinaryConfig.js'
 const router = express.Router();
 

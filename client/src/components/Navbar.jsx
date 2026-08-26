@@ -344,12 +344,12 @@ function Navbar() {
 
 
           {/* PRICE */}
-{/* 
+
           <NavLink
             // to="/price"
               to="/#"
             label="Price"
-          /> */}
+          /> 
 
 
           {/* CONTACT */}
@@ -363,7 +363,7 @@ function Navbar() {
           {/* =================================================
               CLIENT SELECTION
           ================================================= */}
-{/* 
+
           <Link
             // to="/client-selection"
                to="/#"
@@ -400,7 +400,7 @@ function Navbar() {
         </div>
 
 
-        {/* =================================================
+         =================================================
             MOBILE MENU BUTTON
         ================================================= */}
 
@@ -567,12 +567,12 @@ function Navbar() {
             )}
 
 
-            {/* <MobileNavLink
+            <MobileNavLink
             //   to="/price"
               to="/#"
               label="Price"
               onClick={closeMenu}
-            /> */}
+            />
 
             <MobileNavLink
               to="/contact"
@@ -583,7 +583,7 @@ function Navbar() {
 
             {/* MOBILE CTA */}
 
-            {/* <Link
+             <Link
             //   to="/client-selection"
              to="/#"
               onClick={closeMenu}
@@ -614,7 +614,7 @@ function Navbar() {
                 →
               </span>
 
-            </Link> */}
+            </Link> 
 
           </div>
 

@@ -306,7 +306,7 @@ function AdminDashboard() {
                <span>📊 Dashboard Overview</span> 
             </button> */}
 
-            {/* <button
+            <button
               onClick={() => setActiveTab('portal')}
               className={`whitespace-nowrap px-4 py-3 rounded-xl font-medium text-sm transition-all flex items-center justify-between ${
                 activeTab === 'portal' 
@@ -318,7 +318,7 @@ function AdminDashboard() {
               <span className={`text-xs px-2 py-0.5 rounded-full ml-2 ${activeTab === 'portal' ? 'bg-black text-amber-400' : 'bg-zinc-800 text-zinc-400'}`}>
                 {portalsList.length}
               </span>
-            </button> */}
+            </button>
 
             <div className="hidden md:block pt-4 pb-2">
               <p className="text-[11px] uppercase tracking-wider text-zinc-500 font-bold px-3">Portfolio Sections</p>

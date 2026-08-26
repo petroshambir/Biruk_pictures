@@ -287,7 +287,7 @@ function AdminDashboard() {
       <aside className="w-full md:w-72 bg-zinc-900 border-b md:border-r border-zinc-800 p-4 md:p-6 flex flex-col justify-between shrink-0 md:sticky md:top-0 md:h-screen z-20">
         <div>
           <div className="flex items-center gap-3 mb-6 md:mb-8">
-            <div className="bg-amber-500 text-black p-2 rounded-xl font-black text-xl">HF</div>
+            <div className="bg-amber-500 text-black p-2 rounded-xl font-black text-xl">B</div>
             <div>
               <h1 className="text-lg font-bold text-amber-500 leading-tight">Admin Portal</h1>
               <p className="text-xs text-zinc-400">Biruk Film Production</p>

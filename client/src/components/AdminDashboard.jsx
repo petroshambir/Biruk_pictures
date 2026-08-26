@@ -287,7 +287,7 @@ function AdminDashboard() {
       <aside className="w-full md:w-72 bg-zinc-900 border-b md:border-r border-zinc-800 p-4 md:p-6 flex flex-col justify-between shrink-0 md:sticky md:top-0 md:h-screen z-20">
         <div>
           <div className="flex items-center gap-3 mb-6 md:mb-8">
-            <div className="bg-amber-500 text-black p-2 rounded-xl font-black text-xl">B</div>
+            <div className="bg-amber-500 text-black p-2 rounded-xl font-black text-xl">BP</div>
             <div>
               <h1 className="text-lg font-bold text-amber-500 leading-tight">Admin Portal</h1>
               <p className="text-xs text-zinc-400">Biruk Film Production</p>
@@ -347,7 +347,7 @@ function AdminDashboard() {
       </aside>
 
       <main className="flex-1 p-4 md:p-10 overflow-y-auto max-w-full">
-        {/* {activeTab === 'manager' && (
+        {activeTab === 'manager' && (
           <div className="space-y-6">
             <div className="bg-zinc-900 border border-zinc-800 p-6 md:p-8 rounded-2xl">
               <h2 className="text-2xl md:text-3xl font-bold text-amber-400 mb-2">Welcome to Admin Control Panel</h2>
@@ -374,7 +374,7 @@ function AdminDashboard() {
               ))}
             </div>
           </div>
-        )} */}
+        )}
 
         {/* {activeTab === 'portal' && (
           <div className="space-y-8">

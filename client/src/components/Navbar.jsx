@@ -395,14 +395,14 @@ function Navbar() {
             <span className="text-[10px] transition-transform duration-300 group-hover:translate-x-1">
               →
             </span>
-          </Link> */}
+          </Link> 
 
         </div>
 
 
          =================================================
             MOBILE MENU BUTTON
-        ================================================= */}
+        ================================================= 
 
         <button
           type="button"

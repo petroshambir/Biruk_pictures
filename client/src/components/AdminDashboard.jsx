@@ -295,7 +295,7 @@ function AdminDashboard() {
           </div>
 
           <nav className="flex md:flex-col gap-2 overflow-x-auto md:overflow-x-visible pb-2 md:pb-0 scrollbar-none">
-            <button
+            {/* <button
               onClick={() => setActiveTab('manager')}
               className={`whitespace-nowrap px-4 py-3 rounded-xl font-medium text-sm transition-all flex items-center justify-between ${
                 activeTab === 'manager' 
@@ -304,9 +304,9 @@ function AdminDashboard() {
               }`}
             >
                <span>📊 Dashboard Overview</span> 
-            </button>
+            </button> */}
  
-              <button
+              {/* <button
               onClick={() => setActiveTab('portal')}
               className={`whitespace-nowrap px-4 py-3 rounded-xl font-medium text-sm transition-all flex items-center justify-between ${
                 activeTab === 'portal' 
@@ -318,7 +318,7 @@ function AdminDashboard() {
               <span className={`text-xs px-2 py-0.5 rounded-full ml-2 ${activeTab === 'portal' ? 'bg-black text-amber-400' : 'bg-zinc-800 text-zinc-400'}`}>
                 {portalsList.length}
               </span>
-            </button>  
+            </button>   */}
 
             <div className="hidden md:block pt-4 pb-2">
               <p className="text-[11px] uppercase tracking-wider text-zinc-500 font-bold px-3">Portfolio Sections</p>
@@ -347,7 +347,7 @@ function AdminDashboard() {
       </aside>
 
       <main className="flex-1 p-4 md:p-10 overflow-y-auto max-w-full">
-        {activeTab === 'manager' && (
+        {/* {activeTab === 'manager' && (
           <div className="space-y-6">
             <div className="bg-zinc-900 border border-zinc-800 p-6 md:p-8 rounded-2xl">
               <h2 className="text-2xl md:text-3xl font-bold text-amber-400 mb-2">Welcome to Admin Control Panel</h2>
@@ -374,8 +374,8 @@ function AdminDashboard() {
               ))}
             </div>
           </div>
-        )}
-
+        )} */}
+{/* 
         {activeTab === 'portal' && (
           <div className="space-y-8">
             <div className="p-4 md:p-6 border border-amber-500/50 rounded-2xl bg-zinc-900 shadow-2xl">
@@ -485,7 +485,7 @@ function AdminDashboard() {
               </div>
             </div>
           </div>
-        )} 
+        )}  */}
 
         {sectionsConfig.map((sec) => {
           if (activeTab !== sec.title) return null;

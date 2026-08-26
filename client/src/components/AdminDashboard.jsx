@@ -303,7 +303,7 @@ function AdminDashboard() {
                   : 'text-zinc-300 hover:bg-zinc-800 hover:text-white'
               }`}
             >
-              <span>📊 Dashboard Overview</span>
+              {/* <span>📊 Dashboard Overview</span> */}
             </button>
 
             <button
@@ -314,7 +314,7 @@ function AdminDashboard() {
                   : 'text-zinc-300 hover:bg-zinc-800 hover:text-white'
               }`}
             >
-              <span>👥 Client Portals</span>
+              {/* <span>👥 Client Portals</span> */}
               <span className={`text-xs px-2 py-0.5 rounded-full ml-2 ${activeTab === 'portal' ? 'bg-black text-amber-400' : 'bg-zinc-800 text-zinc-400'}`}>
                 {portalsList.length}
               </span>

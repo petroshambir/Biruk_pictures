@@ -283,208 +283,209 @@ function AdminDashboard() {
   };
 
   return (
-    // <div className="bg-zinc-950 min-h-screen text-white flex flex-col md:flex-row relative">
-    //   <aside className="w-full md:w-72 bg-zinc-900 border-b md:border-r border-zinc-800 p-4 md:p-6 flex flex-col justify-between shrink-0 md:sticky md:top-0 md:h-screen z-20">
-    //     <div>
-    //       <div className="flex items-center gap-3 mb-6 md:mb-8">
-    //         <div className="bg-amber-500 text-black p-2 rounded-xl font-black text-xl">HF</div>
-    //         <div>
-    //           <h1 className="text-lg font-bold text-amber-500 leading-tight">Admin Portal</h1>
-    //           <p className="text-xs text-zinc-400">Habesha Film Production</p>
-    //         </div>
-    //       </div>
+    <div className="bg-zinc-950 min-h-screen text-white flex flex-col md:flex-row relative">
+      <aside className="w-full md:w-72 bg-zinc-900 border-b md:border-r border-zinc-800 p-4 md:p-6 flex flex-col justify-between shrink-0 md:sticky md:top-0 md:h-screen z-20">
+        <div>
+          <div className="flex items-center gap-3 mb-6 md:mb-8">
+            <div className="bg-amber-500 text-black p-2 rounded-xl font-black text-xl">HF</div>
+            <div>
+              <h1 className="text-lg font-bold text-amber-500 leading-tight">Admin Portal</h1>
+              <p className="text-xs text-zinc-400">Biruk Film Production</p>
+            </div>
+          </div>
 
-    //       <nav className="flex md:flex-col gap-2 overflow-x-auto md:overflow-x-visible pb-2 md:pb-0 scrollbar-none">
-    //         <button
-    //           onClick={() => setActiveTab('manager')}
-    //           className={`whitespace-nowrap px-4 py-3 rounded-xl font-medium text-sm transition-all flex items-center justify-between ${
-    //             activeTab === 'manager' 
-    //               ? 'bg-amber-500 text-black font-bold shadow-lg shadow-amber-500/20' 
-    //               : 'text-zinc-300 hover:bg-zinc-800 hover:text-white'
-    //           }`}
-    //         >
-    //           {/* <span>📊 Dashboard Overview</span> */}
-    //         </button>
+          <nav className="flex md:flex-col gap-2 overflow-x-auto md:overflow-x-visible pb-2 md:pb-0 scrollbar-none">
+            {/* <button
+              onClick={() => setActiveTab('manager')}
+              className={`whitespace-nowrap px-4 py-3 rounded-xl font-medium text-sm transition-all flex items-center justify-between ${
+                activeTab === 'manager' 
+                  ? 'bg-amber-500 text-black font-bold shadow-lg shadow-amber-500/20' 
+                  : 'text-zinc-300 hover:bg-zinc-800 hover:text-white'
+              }`}
+            >
+               <span>📊 Dashboard Overview</span> 
+            </button> */}
 
-    //         <button
-    //           onClick={() => setActiveTab('portal')}
-    //           className={`whitespace-nowrap px-4 py-3 rounded-xl font-medium text-sm transition-all flex items-center justify-between ${
-    //             activeTab === 'portal' 
-    //               ? 'bg-amber-500 text-black font-bold shadow-lg shadow-amber-500/20' 
-    //               : 'text-zinc-300 hover:bg-zinc-800 hover:text-white'
-    //           }`}
-    //         >
-    //           {/* <span>👥 Client Portals</span> */}
-    //           <span className={`text-xs px-2 py-0.5 rounded-full ml-2 ${activeTab === 'portal' ? 'bg-black text-amber-400' : 'bg-zinc-800 text-zinc-400'}`}>
-    //             {portalsList.length}
-    //           </span>
-    //         </button>
+            {/* <button
+              onClick={() => setActiveTab('portal')}
+              className={`whitespace-nowrap px-4 py-3 rounded-xl font-medium text-sm transition-all flex items-center justify-between ${
+                activeTab === 'portal' 
+                  ? 'bg-amber-500 text-black font-bold shadow-lg shadow-amber-500/20' 
+                  : 'text-zinc-300 hover:bg-zinc-800 hover:text-white'
+              }`}
+            >
+               <span>👥 Client Portals</span> 
+              <span className={`text-xs px-2 py-0.5 rounded-full ml-2 ${activeTab === 'portal' ? 'bg-black text-amber-400' : 'bg-zinc-800 text-zinc-400'}`}>
+                {portalsList.length}
+              </span>
+            </button> */}
 
-    //         <div className="hidden md:block pt-4 pb-2">
-    //           <p className="text-[11px] uppercase tracking-wider text-zinc-500 font-bold px-3">Portfolio Sections</p>
-    //         </div>
+            <div className="hidden md:block pt-4 pb-2">
+              <p className="text-[11px] uppercase tracking-wider text-zinc-500 font-bold px-3">Portfolio Sections</p>
+            </div>
+{/* 
+            {sectionsConfig.map((sec) => (
+              <button
+                key={sec.title}
+                onClick={() => setActiveTab(sec.title)}
+                className={`whitespace-nowrap px-4 py-3 rounded-xl font-medium text-sm transition-all flex items-center justify-between ${
+                  activeTab === sec.title 
+                    ? 'bg-amber-500 text-black font-bold shadow-lg shadow-amber-500/20' 
+                    : 'text-zinc-300 hover:bg-zinc-800 hover:text-white'
+                }`}
+              >
+                <span>✨ {sec.title}</span>
+              </button>
+            ))} */}
+          </nav>
 
-    //         {sectionsConfig.map((sec) => (
-    //           <button
-    //             key={sec.title}
-    //             onClick={() => setActiveTab(sec.title)}
-    //             className={`whitespace-nowrap px-4 py-3 rounded-xl font-medium text-sm transition-all flex items-center justify-between ${
-    //               activeTab === sec.title 
-    //                 ? 'bg-amber-500 text-black font-bold shadow-lg shadow-amber-500/20' 
-    //                 : 'text-zinc-300 hover:bg-zinc-800 hover:text-white'
-    //             }`}
-    //           >
-    //             <span>✨ {sec.title}</span>
-    //           </button>
-    //         ))}
-    //       </nav>
-    //     </div>
+        </div>
 
-    //     <div className="hidden md:block pt-6 border-t border-zinc-800 mt-6 text-xs text-zinc-500 text-center">
-    //       Admin Panel v2.5 &bull; Secure Access
-    //     </div>
-    //   </aside>
+        <div className="hidden md:block pt-6 border-t border-zinc-800 mt-6 text-xs text-zinc-500 text-center">
+          Admin Panel v2.5 &bull; Secure Access
+        </div>
+      </aside>
 
-    //   <main className="flex-1 p-4 md:p-10 overflow-y-auto max-w-full">
-    //     {activeTab === 'manager' && (
-    //       <div className="space-y-6">
-    //         <div className="bg-zinc-900 border border-zinc-800 p-6 md:p-8 rounded-2xl">
-    //           <h2 className="text-2xl md:text-3xl font-bold text-amber-400 mb-2">Welcome to Admin Control Panel</h2>
-    //           <p className="text-zinc-400 text-sm">
-    //             መረብካ (Website) ንምምሕዳር ካብዚ ሳድባር ዝደለኻዮ ክፍሊ ብምጥዋቕ ብቐሊሉ ክትእርምን ስእሊታት ክተሰቅልን ትኽእል።
-    //           </p>
-    //         </div>
+      <main className="flex-1 p-4 md:p-10 overflow-y-auto max-w-full">
+        {/* {activeTab === 'manager' && (
+          <div className="space-y-6">
+            <div className="bg-zinc-900 border border-zinc-800 p-6 md:p-8 rounded-2xl">
+              <h2 className="text-2xl md:text-3xl font-bold text-amber-400 mb-2">Welcome to Admin Control Panel</h2>
+              <p className="text-zinc-400 text-sm">
+                መረብካ (Website) ንምምሕዳር ካብዚ ሳድባር ዝደለኻዮ ክፍሊ ብምጥዋቕ ብቐሊሉ ክትእርምን ስእሊታት ክተሰቅልን ትኽእል።
+              </p>
+            </div>
 
-    //         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-    //           <div onClick={() => setActiveTab('portal')} className="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl cursor-pointer hover:border-amber-500/50 transition-all group">
-    //             <h3 className="text-lg font-bold text-amber-300 group-hover:text-amber-400 mb-1">Active Client Portals</h3>
-    //             <p className="text-2xl font-black text-white mt-2">{portalsList.length}</p>
-    //             <p className="text-xs text-zinc-500 mt-2">ካስተመራት ዝመረጽዎ ስእሊታትን ፓስኮድን መርመሮ</p>
-    //           </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+              <div onClick={() => setActiveTab('portal')} className="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl cursor-pointer hover:border-amber-500/50 transition-all group">
+                <h3 className="text-lg font-bold text-amber-300 group-hover:text-amber-400 mb-1">Active Client Portals</h3>
+                <p className="text-2xl font-black text-white mt-2">{portalsList.length}</p>
+                <p className="text-xs text-zinc-500 mt-2">ካስተመራት ዝመረጽዎ ስእሊታትን ፓስኮድን መርመሮ</p>
+              </div>
 
-    //           {sectionsConfig.map(sec => (
-    //             <div key={sec.title} onClick={() => setActiveTab(sec.title)} className="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl cursor-pointer hover:border-amber-500/50 transition-all group">
-    //               <h3 className="text-lg font-bold text-amber-300 group-hover:text-amber-400 mb-1">{sec.title}</h3>
-    //               <p className="text-2xl font-black text-white mt-2">
-    //                 {sectionsData[sec.title]?.images?.length || 0} Photos
-    //               </p>
-    //               <p className="text-xs text-zinc-500 mt-2">ናይዚ ክፍሊ መግለጫን ስእሊታትን ኣስተኻኽል</p>
-    //             </div>
-    //           ))}
-    //         </div>
-    //       </div>
-    //     )}
+              {sectionsConfig.map(sec => (
+                <div key={sec.title} onClick={() => setActiveTab(sec.title)} className="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl cursor-pointer hover:border-amber-500/50 transition-all group">
+                  <h3 className="text-lg font-bold text-amber-300 group-hover:text-amber-400 mb-1">{sec.title}</h3>
+                  <p className="text-2xl font-black text-white mt-2">
+                    {sectionsData[sec.title]?.images?.length || 0} Photos
+                  </p>
+                  <p className="text-xs text-zinc-500 mt-2">ናይዚ ክፍሊ መግለጫን ስእሊታትን ኣስተኻኽል</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )} */}
 
-    //     {activeTab === 'portal' && (
-    //       <div className="space-y-8">
-    //         <div className="p-4 md:p-6 border border-amber-500/50 rounded-2xl bg-zinc-900 shadow-2xl">
-    //           <h2 className="text-xl md:text-2xl font-bold text-amber-400 mb-6">Create Client Selection Portal (Max 500 Photos)</h2>
-    //           <form onSubmit={handleCreatePortal} className="space-y-4">
-    //             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-    //               <div>
-    //                 <label className="block text-zinc-400 mb-1 text-sm">Client Name (ሽም ካስተመር):</label>
-    //                 <input 
-    //                   type="text" 
-    //                   value={clientName}
-    //                   onChange={(e) => setClientName(e.target.value)}
-    //                   placeholder="ንኣብነት: Dawit & Meron"
-    //                   className="bg-zinc-800 border border-zinc-700 p-3 rounded-lg w-full text-white text-sm"
-    //                   required
-    //                 />
-    //               </div>
-    //               <div>
-    //                 <label className="block text-zinc-400 mb-1 text-sm">Portal Number (ቑጽሪ ፖርታል):</label>
-    //                 <input 
-    //                   type="text" 
-    //                   value={portalNumber}
-    //                   onChange={(e) => setPortalNumber(e.target.value)}
-    //                   placeholder="ንኣብነት: 01 ወይ 102"
-    //                   className="bg-zinc-800 border border-zinc-700 p-3 rounded-lg w-full text-white text-sm"
-    //                   required
-    //                 />
-    //               </div>
-    //             </div>
+        {/* {activeTab === 'portal' && (
+          <div className="space-y-8">
+            <div className="p-4 md:p-6 border border-amber-500/50 rounded-2xl bg-zinc-900 shadow-2xl">
+              <h2 className="text-xl md:text-2xl font-bold text-amber-400 mb-6">Create Client Selection Portal (Max 500 Photos)</h2>
+              <form onSubmit={handleCreatePortal} className="space-y-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-zinc-400 mb-1 text-sm">Client Name (ሽም ካስተመር):</label>
+                    <input 
+                      type="text" 
+                      value={clientName}
+                      onChange={(e) => setClientName(e.target.value)}
+                      placeholder="ንኣብነት: Dawit & Meron"
+                      className="bg-zinc-800 border border-zinc-700 p-3 rounded-lg w-full text-white text-sm"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-zinc-400 mb-1 text-sm">Portal Number (ቑጽሪ ፖርታል):</label>
+                    <input 
+                      type="text" 
+                      value={portalNumber}
+                      onChange={(e) => setPortalNumber(e.target.value)}
+                      placeholder="ንኣብነት: 01 ወይ 102"
+                      className="bg-zinc-800 border border-zinc-700 p-3 rounded-lg w-full text-white text-sm"
+                      required
+                    />
+                  </div>
+                </div>
 
-    //             <div>
-    //               <label className="block text-zinc-400 mb-1 text-sm">Upload Client Photos (ስእሊታት ምጽዓን - ክሳብ 500):</label>
-    //               <input 
-    //                 type="file" 
-    //                 multiple
-    //                 onChange={handleClientImageUpload}
-    //                 className="text-zinc-400 text-xs file:mr-2 file:py-2 file:px-3 file:rounded-lg file:border-0 file:text-xs file:font-semibold file:bg-amber-500 file:text-black hover:file:bg-amber-400 w-full bg-zinc-800 p-2 rounded-lg" 
-    //               />
-    //               <p className="text-xs text-zinc-500 mt-1">ዝተመረጹ ስእሊታት ቑጽሪ: {clientImages.length} / 500</p>
-    //             </div>
+                <div>
+                  <label className="block text-zinc-400 mb-1 text-sm">Upload Client Photos (ስእሊታት ምጽዓን - ክሳብ 500):</label>
+                  <input 
+                    type="file" 
+                    multiple
+                    onChange={handleClientImageUpload}
+                    className="text-zinc-400 text-xs file:mr-2 file:py-2 file:px-3 file:rounded-lg file:border-0 file:text-xs file:font-semibold file:bg-amber-500 file:text-black hover:file:bg-amber-400 w-full bg-zinc-800 p-2 rounded-lg" 
+                  />
+                  <p className="text-xs text-zinc-500 mt-1">ዝተመረጹ ስእሊታት ቑጽሪ: {clientImages.length} / 500</p>
+                </div>
 
-    //             {clientImages.length > 0 && (
-    //               <div className="grid grid-cols-4 sm:grid-cols-6 gap-2 mt-4 p-3 bg-zinc-950 rounded-xl border border-zinc-800 max-h-40 overflow-y-auto">
-    //                 {clientImages.map((imgObj, i) => (
-    //                   <div key={i} className="relative aspect-square rounded overflow-hidden border border-zinc-700">
-    //                     <img 
-    //                       src={imgObj.compressed || imgObj.original} 
-    //                       alt={`preview-${i}`} 
-    //                       className="w-full h-full object-cover rounded"
-    //                     />
-    //                   </div>
-    //                 ))}
-    //               </div>
-    //             )}
+                {clientImages.length > 0 && (
+                  <div className="grid grid-cols-4 sm:grid-cols-6 gap-2 mt-4 p-3 bg-zinc-950 rounded-xl border border-zinc-800 max-h-40 overflow-y-auto">
+                    {clientImages.map((imgObj, i) => (
+                      <div key={i} className="relative aspect-square rounded overflow-hidden border border-zinc-700">
+                        <img 
+                          src={imgObj.compressed || imgObj.original} 
+                          alt={`preview-${i}`} 
+                          className="w-full h-full object-cover rounded"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                )}
 
-    //             <button 
-    //               type="submit" 
-    //               disabled={creatingPortal}
-    //               className="bg-amber-500 hover:bg-amber-600 text-black font-bold px-6 py-3 rounded-lg w-full transition-colors text-sm"
-    //             >
-    //               {creatingPortal ? 'Generating Portal & Passcode...' : 'Create Portal & Generate Passcode'}
-    //             </button>
-    //           </form>
+                <button 
+                  type="submit" 
+                  disabled={creatingPortal}
+                  className="bg-amber-500 hover:bg-amber-600 text-black font-bold px-6 py-3 rounded-lg w-full transition-colors text-sm"
+                >
+                  {creatingPortal ? 'Generating Portal & Passcode...' : 'Create Portal & Generate Passcode'}
+                </button>
+              </form>
 
-    //           <div className="mt-8">
-    //             <h3 className="text-lg font-semibold text-zinc-300 mb-4">Active Client Portals ({portalsList.length})</h3>
-    //             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-    //               {portalsList.map(portal => {
-    //                 const hasSubmitted = portal.selectedImages && portal.selectedImages.length > 0;
-    //                 return (
-    //                   <div key={portal._id} className="bg-zinc-800 p-4 rounded-xl border border-zinc-700 flex flex-col justify-between gap-3">
-    //                     <div>
-    //                       <div className="flex justify-between items-start gap-2">
-    //                         <h4 className="font-bold text-amber-300 truncate">{portal.clientName}</h4>
-    //                         {hasSubmitted && (
-    //                           <span className="bg-green-500/20 text-green-400 text-[10px] uppercase font-bold px-2 py-0.5 rounded border border-green-500/30 shrink-0">
-    //                             Submitted ({portal.selectedImages.length})
-    //                           </span>
-    //                         )}
-    //                       </div>
-    //                       <p className="text-xs text-zinc-400">Portal #{portal.portalNumber}</p>
-    //                       <p className="text-xs text-amber-400/80 font-mono mt-1">Passcode: {portal.passcode}</p>
-    //                     </div>
+              <div className="mt-8">
+                <h3 className="text-lg font-semibold text-zinc-300 mb-4">Active Client Portals ({portalsList.length})</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {portalsList.map(portal => {
+                    const hasSubmitted = portal.selectedImages && portal.selectedImages.length > 0;
+                    return (
+                      <div key={portal._id} className="bg-zinc-800 p-4 rounded-xl border border-zinc-700 flex flex-col justify-between gap-3">
+                        <div>
+                          <div className="flex justify-between items-start gap-2">
+                            <h4 className="font-bold text-amber-300 truncate">{portal.clientName}</h4>
+                            {hasSubmitted && (
+                              <span className="bg-green-500/20 text-green-400 text-[10px] uppercase font-bold px-2 py-0.5 rounded border border-green-500/30 shrink-0">
+                                Submitted ({portal.selectedImages.length})
+                              </span>
+                            )}
+                          </div>
+                          <p className="text-xs text-zinc-400">Portal #{portal.portalNumber}</p>
+                          <p className="text-xs text-amber-400/80 font-mono mt-1">Passcode: {portal.passcode}</p>
+                        </div>
 
-    //                     <div className="flex items-center gap-2 pt-2 border-t border-zinc-700/50">
-    //                       {hasSubmitted ? (
-    //                         <button 
-    //                           onClick={() => setViewingPortalSelections(portal)}
-    //                           className="bg-amber-600 hover:bg-amber-700 text-white px-3 py-1.5 rounded text-xs font-bold flex-1 transition-colors truncate"
-    //                         >
-    //                           View Selections ({portal.selectedImages.length})
-    //                         </button>
-    //                       ) : (
-    //                         <span className="text-[11px] text-zinc-500 italic flex-1">No selection yet</span>
-    //                       )}
-    //                       <button 
-    //                         onClick={() => handleDeletePortal(portal._id)}
-    //                         className="bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 rounded text-xs font-bold shrink-0"
-    //                       >
-    //                         Delete
-    //                       </button>
-    //                     </div>
-    //                   </div>
-    //                 );
-    //               })}
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     )}
+                        <div className="flex items-center gap-2 pt-2 border-t border-zinc-700/50">
+                          {hasSubmitted ? (
+                            <button 
+                              onClick={() => setViewingPortalSelections(portal)}
+                              className="bg-amber-600 hover:bg-amber-700 text-white px-3 py-1.5 rounded text-xs font-bold flex-1 transition-colors truncate"
+                            >
+                              View Selections ({portal.selectedImages.length})
+                            </button>
+                          ) : (
+                            <span className="text-[11px] text-zinc-500 italic flex-1">No selection yet</span>
+                          )}
+                          <button 
+                            onClick={() => handleDeletePortal(portal._id)}
+                            className="bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 rounded text-xs font-bold shrink-0"
+                          >
+                            Delete
+                          </button>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
+        )} */}
 
         {sectionsConfig.map((sec) => {
           if (activeTab !== sec.title) return null;

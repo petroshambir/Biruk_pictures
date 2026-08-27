@@ -227,7 +227,7 @@ function Hero() {
             >
 
               <Link
-                to="/gallery"
+                to="/Gallery"
                 className="
                   group
                   inline-flex

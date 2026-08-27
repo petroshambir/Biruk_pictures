@@ -689,9 +689,7 @@ function Home() {
                       </div>
 
                       <Link
-                        to={`/gallery/${generateSlug(
-                          title
-                        )}`}
+                        to={`/gallery/${section._id}`}
                         className="group flex items-center gap-4 text-[8px] tracking-[0.25em] text-[#a38348]"
                       >
                         VIEW STORY
